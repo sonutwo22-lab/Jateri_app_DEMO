@@ -23,7 +23,7 @@ const MOCK_CHATS = [
   { id: 102, name: 'Match #1', lastMessage: 'Hey! How are you doing?', unread: 0, avatar: 'https://placehold.co/100x100/e2e8f0/475569?text=M1' },
 ];
 
-export default function App() {
+export default function Page() {
   // App State
   const [currentUser, setCurrentUser] = useState(null); // null means not logged in
   const [currentView, setCurrentView] = useState('auth'); // 'auth', 'discover', 'chatList', 'chat', 'profile'
